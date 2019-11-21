@@ -1,5 +1,6 @@
 function start() {
   setInterval(doIt, 3000);
+  calculateChristmasDown()
 }
 
 function doIt() {
