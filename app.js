@@ -1,5 +1,5 @@
 function start() {
-  setInterval(doIt, 3000);
+  setInterval(doIt, 500);
 }
 
 function doIt() {
