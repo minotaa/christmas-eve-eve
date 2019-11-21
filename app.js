@@ -14,6 +14,7 @@ function doIt() {
   var str = "Eve "
   var s1 = str.repeat(Math.ceil((cmas.getTime()-today.getTime())/(one_day)))
   document.getElementById("ever").innerHTML = "It is Christmas " + s1;
+  calculateChristmasCountdown();
 }
 
 function calculateChristmasCountdown() {
@@ -46,4 +47,3 @@ function calculateChristmasCountdown() {
     document.getElementById('seconds').innerHTML = seconds;
     setTimeout(calculateChristmasCountdown, 1000);
 }
-calculateChristmasCountdown()
