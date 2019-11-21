@@ -1,6 +1,6 @@
 function start() {
   setInterval(doIt, 3000);
-  calculateChristmasDown()
+  setTimeout(calculateChristmasCountdown, 1000);
 }
 
 function doIt() {
@@ -45,5 +45,4 @@ function calculateChristmasCountdown() {
     document.getElementById('hours').innerHTML = hours + ' Hours';
     document.getElementById('minutes').innerHTML = minutes + ' Minutes';
     document.getElementById('seconds').innerHTML = seconds + ' Seconds';
-    setTimeout(calculateChristmasCountdown, 1000);
 }
